@@ -1,0 +1,15 @@
+[submodule "binaries/cert-generator"]
+	path = binaries/cert-generator
+	url = git@github.com:Rsaliu/cert-generator.git
+[submodule "libraries/store-lib"]
+	path = libraries/store-lib
+	url = git@github.com:Rsaliu/store-lib.git
+[submodule "libraries/crypto-lib"]
+	path = libraries/crypto-lib
+	url = git@github.com:Rsaliu/crypto-lib.git
+[submodule "libraries/token-lib"]
+	path = libraries/token-lib
+	url = git@github.com:Rsaliu/token-lib.git
+[submodule "libraries/user-lib"]
+	path = libraries/user-lib
+	url = git@github.com:Rsaliu/user-lib.git
