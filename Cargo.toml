@@ -1,0 +1,11 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+    "libraries/cert-lib",
+    "libraries/store-lib",
+    "libraries/token-lib",
+    "libraries/user-lib",
+    "binaries/cert-generator", "libraries/crypto-lib",
+]
