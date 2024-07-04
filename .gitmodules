@@ -13,3 +13,6 @@
 [submodule "libraries/user-lib"]
 	path = libraries/user-lib
 	url = git@github.com:Rsaliu/user-lib.git
+[submodule "binaries/email-sender"]
+	path = binaries/email-sender
+	url = git@github.com:Rsaliu/email-sender.git

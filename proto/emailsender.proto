@@ -1,0 +1,27 @@
+syntax = "proto3";
+package emailsender;
+
+service EmailSender {
+    rpc SendEmail (EmailSendRequest) returns (EmailSendReply);
+}
+
+message EmailSendRequest {
+    // Request message contains the name to be greeted
+    string message_id = 1;
+    string email_address = 2;
+    string title = 3;
+    string message = 4;
+}
+
+enum Status {
+  SUCCESS = 0;
+  FAILED_TO_SEND = 1;
+  INVALID_MESSAGE = 2;
+}
+
+message EmailSendReply {
+    // Reply contains the greeting message
+    string message_id = 1;
+    Status message_status = 2; 
+}
+
